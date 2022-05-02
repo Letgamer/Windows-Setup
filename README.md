@@ -1,5 +1,5 @@
 # Windows Installation
-With this Tutorial you can setup fast a fresh Windows 11 system, without bloatware, defender and a very powerful toolbox
+With this Tutorial you can setup fast a fresh Windows 11 system, without bloatware, defender and with a very powerful toolbox
 ## Pre-Installation
 ### Backup
 Only needed if you got migrate to a new windows installation
