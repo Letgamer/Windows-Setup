@@ -59,3 +59,5 @@ Plugins:
 copy all backed-up files from the usb-stick to the new system
 Go through your settings and check everything
 Install all needed Programms
+
+And that's it! You finished!
