@@ -55,6 +55,9 @@ Plugins:
 - Live Share
 - Pylance
 - Python
+### Visual Studio Code
+Add the AutoHotkey scripts:
+https://github.com/Letgamer/Auto-Hotkey-scripts
 ## End
 copy all backed-up files from the usb-stick to the new system
 Go through your settings and check everything
