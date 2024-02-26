@@ -1,26 +1,11 @@
 # Windows Installation
-With this Tutorial you can setup fast a fresh Windows 11 system, without bloatware, defender and with a very powerful toolbox
+With this Tutorial you can setup a fast and fresh Windows 11 system without bloatware
 ## Pre-Installation
-### Backup
-Only needed if you got migrate to a new windows installation
-on the old installation:
-- Create “backup” Folder in C:\
-- go into the backup folder and create the Folders “Desktop”, “Documents”, “Downloads” and “Pictures”
-- move everything important from the 4 user files to the backup folder and delete everything left in the user folders
-- make a screenshot of the Desktop and save it in the backup folder
-- Download TreeSize Free: [https://customers.jam-software.de/downloadTrial.php?language=DE&article_no=80](https://customers.jam-software.de/downloadTrial.php?language=DE&article_no=80) and install it
-- Check launch as Administrator at the End of the installationprocess and then search through all Folders and delete them
-- go to View → Show Treemap Chart and check there for files
-- use a USB-Stick and transfer the backup folder to another PC/location or use a other UBS-device for the installation
-after that you can prepare the installation stick
 ### Installation-Stick
-- go to that site: [https://ghostcloud.ml/wp1/w1121h222000/](https://ghostcloud.ml/wp1/w1121h222000/)
-- choose the custom bootable version and download it from Mediafire
-- extract the file with 7-Zip and with this password: W11QWERTQWQU5/Password from youtube
+- Download the latest Windows 11 ISO from the following Website: https://revi.cc/docs/playbook/installstock
 - download and open Rufus: [https://rufus.ie/de/](https://rufus.ie/de/)
-- choose the downloaded ISO and an USB-Stick and start the process
-- when finished, download Chrome-Setup: [https://www.google.com/intl/de_de/chrome/](https://www.google.com/intl/de_de/chrome/) and save it on the USB-Stick
-the stick is now ready and can be removed
+- choose the downloaded ISO and an USB-Stick
+- Activate the option to create a local Account and flash the Image
 ## Installation process
 - shutdown the according device
 - insert der installation stick
@@ -29,41 +14,74 @@ the stick is now ready and can be removed
 
 run through the setup and install Windows, after the Installation the System reboots and you finished
 ## Post-installation
-- Install Chrome from the USB-Stick
-- remove the USB-Device
-- download the newest drivers, either manually, from Driver easy crack or from Driver Booster
-- set the according settings in the Ghost Toolbox
-### Winaero Tweaker
-download Winaero Tweaker: [](https://winaero.com/download-winaero-tweaker/)[https://winaero.com/download-winaero-tweaker/](https://winaero.com/download-winaero-tweaker/) and install it
-run it and select the desired tweaks, reboot then
+- Go into the Settings and install all Updates and Drivers
+- Download the ReviOS [Playbook](https://revi.cc/revios/download) and the [AME WIzard](https://ameliorated.io/)
+- Install the Wizard and apply the Playbook
+- To further debloat the system you can now run the three scripts provided in this repository
+- Also head over to my [other repository](https://github.com/Letgamer/mybrowserconfig) to install Chrome
+## Installed Apps
+### <img src="https://avatars.githubusercontent.com/u/7068667" width="30px"> ATLauncher
+A open-source, leightweight and fast Minecraft Launcher with support for all Minecraft Versions and Modloaders
+
+[Github Repository](https://github.com/ATLauncher/ATLauncher)
+
+### <img src="https://avatars.githubusercontent.com/u/26380532" width="30px"> Termius
+A State of the art SSH Client and Terminal Manager with support for SFTP, Autocompletion and Credential-Manager
+
+Unfortunately not open source, no comparable open-source replacement available.
+
+### <img src="https://avatars.githubusercontent.com/u/14312869" width="30px"> KDE-Connect
+KDE Connect is a multi-platform app that allows your devices to communicate (eg: your phone and your computer) and share notifications and clipboard contents.
+
+[Github Repository](https://github.com/KDE/kdeconnect-kde)
+
+### <img src="https://open.spotify.com/favicon.ico" width="30px"> Spotify(SpotX)
+Modified Spotify Client for Windows without Ads and other bullshit
+
+[Github Repository](https://github.com/SpotX-Official/SpotX)
+
+### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Vmware_workstation_16_icon.svg/800px-Vmware_workstation_16_icon.svg.png" width="30px"> VMWare Workstation Pro 17
+The industry standard desktop hypervisor for running virtual machines on Linux or Windows PCs
+
+Unfortunately not open source, no comparable open-source replacement available, Virtualbox has a way to bad GUI
+
+License Keys are [publicly available](https://gist.github.com/PurpleVibe32/30a802c3c8ec902e1487024cdea26251), no need to buy anything
+
+### <img src="https://user-images.githubusercontent.com/10867563/189709105-55b22523-fc01-4fcb-af62-656bc188cf28.png" width="30px"> NanaZip
+NanaZip is an open source file archiver intended for the modern Windows experience, forked from the source code of well-known open source file archiver 7-Zip.
+
+[Github Repository](https://github.com/M2Team/NanaZip)
+
+### <img src="https://www.qbittorrent.org/favicon.ico" width="30px"> qBittorrent
+qBittorrent aims to be a good alternative to all other bittorrent clients out there. qBittorrent is fast, stable and provides unicode support as well as many features.
+
+[Github Repository](https://github.com/qbittorrent/qBittorrent)
+
+To have a dark theme you can either install the popular Dracular Theme or find other Themes on Github
+
+### <img src="https://avatars.githubusercontent.com/u/40338071? width="30px"> VSCodium
+VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.
+
+[Github Repository](https://github.com/VSCodium/vscodium)
+
+My current configuration ond installed Extensions can be found on my [Gist](https://gist.github.com/Letgamer), which is updated my the Settings Sync Extension
+
+### <img src="https://avatars.githubusercontent.com/u/6154722? width="30px"> PowerToys
+A set of utilities for power users to tune and streamline their Windows experience for greater productivity.
+
+[GIthub Repository](https://github.com/microsoft/PowerToys)
+
+Only enable: Color picker, Peek, File Locksmith, Screen Ruler, Paste as Plain Text and Environment Variables
+### <img src="https://avatars.githubusercontent.com/u/48932923? width="30px"> Tailscale
+The easiest, most secure way to use WireGuard and 2FA.
+
+[Github Repository](https://github.com/tailscale/tailscale)
+
+Tailscale is used to connect to my server without the need for port forwarding and exposing my public IP
+
 ### Office + Windows Activation
 - Download Office: [https://tb.rg-adguard.net/public.php](https://tb.rg-adguard.net/public.php)
 - mount the .img file, navigate to the office folder and run Setup64.exe
 - After Installation download Microsoft-Activation-Scripts: [https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
 - Download 7-Zip to extract the files and run the All-In-One-Version
 - Run HWID Activation, run Online KMS → Activate Office and Auto-Renewal
-## Additional programms
-### Power Toys
-enable only color picker, all File-explorer addons, Find my mouse, PowerToys Run, Shortcut Guide and Video Conference mute
-### Quick Look
-just install it
-### Visual Studio Code
-Theme: sweet Vscode, sweet Vscode Icons
-Plugins:
-- Discord Presence
-- Live Server
-- Live Share
-- Pylance
-- Python
-### AutoHotkey
-Add the AutoHotkey scripts:
-https://github.com/Letgamer/Auto-Hotkey-scripts
-### Setup ShareX with own Server
-Follow this wiki page:
-https://github.com/Letgamer/Windows-Setup/wiki/ShareX-Server-and-App-setup
-## End
-copy all backed-up files from the usb-stick to the new system
-Go through your settings and check everything
-Install all needed Programms
-
-And that's it! You finished!
