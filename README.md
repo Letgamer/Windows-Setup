@@ -80,8 +80,6 @@ The easiest, most secure way to use WireGuard and 2FA.
 Tailscale is used to connect to my server without the need for port forwarding and exposing my public IP
 
 ### Office + Windows Activation
-- Download Office: [https://tb.rg-adguard.net/public.php](https://tb.rg-adguard.net/public.php)
+- Download Office: https://massgrave.dev/office_c2r_links.html
 - mount the .img file, navigate to the office folder and run Setup64.exe
-- After Installation download Microsoft-Activation-Scripts: [https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
-- Download 7-Zip to extract the files and run the All-In-One-Version
-- Run HWID Activation, run Online KMS → Activate Office and Auto-Renewal
+- After Installation run the [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) and activate Office wia Ohook and Windows via HWID
