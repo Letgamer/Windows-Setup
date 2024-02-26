@@ -59,20 +59,20 @@ qBittorrent aims to be a good alternative to all other bittorrent clients out th
 
 To have a dark theme you can either install the popular Dracular Theme or find other Themes on Github
 
-### <img src="https://avatars.githubusercontent.com/u/40338071? width="30px"> VSCodium
+### <img src="https://avatars.githubusercontent.com/u/40338071" width="30px"> VSCodium
 VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.
 
 [Github Repository](https://github.com/VSCodium/vscodium)
 
 My current configuration ond installed Extensions can be found on my [Gist](https://gist.github.com/Letgamer), which is updated my the Settings Sync Extension
 
-### <img src="https://avatars.githubusercontent.com/u/6154722? width="30px"> PowerToys
+### <img src="https://avatars.githubusercontent.com/u/6154722" width="30px"> PowerToys
 A set of utilities for power users to tune and streamline their Windows experience for greater productivity.
 
 [GIthub Repository](https://github.com/microsoft/PowerToys)
 
 Only enable: Color picker, Peek, File Locksmith, Screen Ruler, Paste as Plain Text and Environment Variables
-### <img src="https://avatars.githubusercontent.com/u/48932923? width="30px"> Tailscale
+### <img src="https://avatars.githubusercontent.com/u/48932923" width="30px"> Tailscale
 The easiest, most secure way to use WireGuard and 2FA.
 
 [Github Repository](https://github.com/tailscale/tailscale)
